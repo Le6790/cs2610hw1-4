@@ -1,0 +1,41 @@
+.the-red-one {
+    color:red;
+    font-size:100px;
+}
+.the-big-one{
+    font-size: 10px;
+}
+            
+table {
+    border: 3px solid blue;
+}
+
+tr {
+    border: 3px solid green;
+    color:orange;
+    font-family: serif;
+}
+
+tr:nth-child(2n){
+    background-color: lightgrey;   
+}
+tr:nth-child(2n+1){
+    background-color: white;
+}
+
+tr:first-of-type{
+    background-color: green;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+th {
+    color: blue;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: sans-serif;
+}
