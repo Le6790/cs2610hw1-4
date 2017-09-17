@@ -9,7 +9,6 @@
 h1 {
     text-align: center;
     border:5px solid black;
-    
 } 
             
 table {
@@ -17,8 +16,8 @@ table {
 }
 
 tr {
-    border: 3px solid lightblue;
-    color:orange;
+    
+    color:black;
     font-family: serif;
 }
 
@@ -30,7 +29,7 @@ tr:nth-child(2n+1){
 }
 
 tr:first-of-type{
-    background-color: green;
+    background-color: grey;
 }
 
 a:hover {
@@ -38,7 +37,7 @@ a:hover {
 }
 
 th {
-    color: blue;
+    color: black;
     font-family: sans-serif;
 }
 
