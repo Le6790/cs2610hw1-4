@@ -1,19 +1,36 @@
 .the-red-one {
     color:red;
-    font-size:100px;
+    font-size:14px;
 }
 .the-big-one{
     font-size: 10px;
 }
- 
+
+#fonting{
+    font-weight:bold;
+    color: red;
+}
+body{
+    background-image:url("http://cdn26.us1.fansshare.com/photo/backgroundimage/gray-plain-website-background-for-website-1628649645.jpg");
+ }
 h1 {
     text-align: center;
-    border:5px solid black;
+    border:3px solid white;
+    background-color: #7b7d82;
 } 
-            
-table {
-    border: 3px solid black;
+h2 {
+    color:white;
 }
+
+p {
+    color:white;
+    font-size: 17px;
+    
+}            
+table {
+    border: 3px solid white;
+}
+
 
 tr {
     
@@ -34,6 +51,10 @@ tr:first-of-type{
 
 a:hover {
     font-weight: bold;
+}
+
+a:visted {
+    color: green;
 }
 
 th {
