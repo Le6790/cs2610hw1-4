@@ -6,17 +6,15 @@
     font-size: 10px;
 }
 
-#fonting{
-    font-weight:bold;
-    color: red;
-}
 body{
     background-image:url("http://cdn26.us1.fansshare.com/photo/backgroundimage/gray-plain-website-background-for-website-1628649645.jpg");
+    display: inherit;
  }
 h1 {
     text-align: center;
     border:3px solid white;
-    background-color: #7b7d82;
+    background-color: #2c5f87;
+    color: white;
 } 
 h2 {
     color:white;
@@ -25,16 +23,16 @@ h2 {
 p {
     color:white;
     font-size: 17px;
+    vertical-align: text-top;
     
 }            
 table {
     border: 3px solid white;
+    font-weight: bold;
 }
 
 
 tr {
-    
-    color:black;
     font-family: serif;
 }
 
@@ -53,8 +51,12 @@ a:hover {
     font-weight: bold;
 }
 
-a:visted {
-    color: green;
+a:visited {
+    color: skyblue;
+}
+
+p:hover {
+    font-weight: bold;
 }
 
 th {
@@ -63,5 +65,11 @@ th {
 }
 
 code {
-    font-family: sans-serif;
+    font-family: monospace;
+}
+
+img {
+     float: right;
+    vertical-align: middle;
+   
 }
