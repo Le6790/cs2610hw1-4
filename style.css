@@ -6,6 +6,12 @@
     font-size: 10px;
 }
 
+.cool, .otherCoolThing {
+    background-image: url(http://images.all-free-download.com/images/graphiclarge/soft_wave_background_310823.jpg);
+}
+
+
+
 body{
     background-image:url("http://cdn26.us1.fansshare.com/photo/backgroundimage/gray-plain-website-background-for-website-1628649645.jpg");
     display: inherit;
@@ -16,6 +22,7 @@ h1 {
     background-color: #2c5f87;
     color: white;
 } 
+
 h2 {
     color:white;
 }
@@ -37,10 +44,10 @@ tr {
 }
 
 tr:nth-child(2n){
-    background-color: lightgrey;   
+    background-color: rgba(200,200,200, 0.3);   
 }
 tr:nth-child(2n+1){
-    background-color: white;
+    background-color: rgba(200,25,255, 0.3);
 }
 
 tr:first-of-type{
