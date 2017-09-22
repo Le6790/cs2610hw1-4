@@ -8,10 +8,24 @@
 
 .cool, .otherCoolThing {
     background-image: url(http://images.all-free-download.com/images/graphiclarge/soft_wave_background_310823.jpg);
+    background-attachment scroll; /*scrolls with the table. Default */
+    /*background-attachment: local; /*sticks to the table */
+    
+    
 }
 
 
+.shorty {
+    height: 500px;
+    
+    display: block;
+}
 
+.overFlowing {
+    overflow: visible; /*Overflow */
+    overflow: auto; /*YAAY has scroll bar*/
+   /* overflow: hidden; *//* Cuts out information according to box size */
+}
 body{
     background-image:url("http://cdn26.us1.fansshare.com/photo/backgroundimage/gray-plain-website-background-for-website-1628649645.jpg");
     display: inherit;
