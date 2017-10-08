@@ -8,12 +8,18 @@
 
 .cool, .otherCoolThing {
     background-image: url(http://images.all-free-download.com/images/graphiclarge/soft_wave_background_310823.jpg);
-    background-attachment scroll; /*scrolls with the table. Default */
+    background-attachment: scroll; /*scrolls with the table. Default */
     /*background-attachment: local; /*sticks to the table */
     
     
 }
 
+.width-constrained {
+    width: 50%;
+    height: 400px;
+    overflow: auto;
+    margin: 30px;
+}
 
 .shorty {
     height: 500px;
