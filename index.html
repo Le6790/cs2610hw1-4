@@ -1,84 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Git Cheat Sheet</title>
-        <link href = "style.css" rel= "stylesheet">
-    </head>
-    <body>
-        <h1>Git Cheat Sheet</h1>
-        <h2><b>CS2610</b></h2>
-        <p>This page lists and describes usful git commands.</p>
-        <p>This page was constructed with information from <a href= "https://www.html-5-tutorial.com/">https://www.html-5-tutorial.com/</a>, 
-        <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a>,
-        <a href = "https://www.siteground.com/tutorials/git/commands.htm"> https://www.siteground.com/tutorials/git/commands.htm</a>,
-        and part of Professor Falor's Git Cheat Sheet class example.</p>
-        <div class = "width-constrained">
-        <table class = "cool shorty overFlowing">
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Example</th>
-            </tr>
-            
-            <tr>
-                <td>git init</td>
-                <td>Initializes a new git repository</td>
-                <td><code>git init</code></td>
-            </tr>
-            
-            <tr>
-                
-                <td>git add <em>filename ...</em></td>
-                <td>Adds a set of changes to the repository</td>
-                <td><code>git add index.html</code></td>
-            </tr>
-            
-            <tr>
-                <td>git commit</td>
-                <td>Saves a snapshot of your work, along with your explanation</td>
-                <td><code>git commit</code></td>
-            </tr>
-            <tr>
-                <td>git status</td>
-                <td>Shows you the status of files in the index vs working directory. Lists changed files, files not currently in git directory</td>
-                <td><code>git status</code></td>
-            </tr>
-            <tr>
-                <td>git diff</td>
-                <td>Display the differences between committed code and the working files</td>
-                <td><code>git diff</code></td>
-            </tr>
-            <tr>
-                <td>git remove</td>
-                <td>removes a file from your index and working directory</td>
-                <td><code>git remove</code></td>
-            </tr>
-            <tr>
-                <td>git remote add</td>
-                <td>Connect a remote repository to this one.</td>
-                <td><code>git remote add origin https://LeKent@bitbucket.org/LeKent/cs2610.git</code></td>
-            </tr>
-            
-            <tr>
-                <td>git push</td>
-                <td>Send changes to a remote repository</td>
-                <td><code>git push origin master</code></td>
-            </tr>
-            
-            <tr>
-                <td>git clone</td>
-                <td>Makes a git repository copy froma remote source.</td>
-                <td><code>git clone https://LeKent@bitbucket.org/erikfalor/weatheranalyzer.git </code></td>
-            </tr>
-            
-            <tr>
-                <td>git grep</td>
-                <td>Lets you search through your tree of contents for words and phrases</td>
-                <td><code>git grep index.html</code></td>
-            </tr>
-        </table>
-        </div>
-          <img src = "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt= "html 5 logo" width="100"/>
-          <img src = "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt= "git logo" width="200"/>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Kent Le</title>
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700" rel="stylesheet"> -->
+    <link href = "style.css" rel= "stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+      <h1>KENT LE</h1>
+      <!--<img src="dove.png" alt="a simple dove logo">
+      -->
+      <nav>
+      <ul>
+        <li><span>Main Page</span></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+        <li><a href="techTips.html">Tech Tips</a></li>
+      </ul>
+    </nav>
+    </header>
+    <article>
+      <h2>Welcome. This is Kent's blog.</h2>
+      <div class ="flexContainer">
+      <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn, được sử dụng trong các ứng dụng dàn trang, như Aldus PageMaker.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu est turpis. Quisque ex elit, blandit sed lacus sit amet, rutrum mattis justo. Nam non finibus massa, a luctus risus. Ut nec lacus pretium sapien aliquam rutrum eu vitae mauris. Praesent non aliquet sem. Vestibulum sed lorem lectus. Praesent feugiat, nulla quis pharetra venenatis, enim nulla ornare sem, quis euismod metus arcu vitae orci. Pellentesque pretium dolor nec consequat gravida. Praesent at sem dignissim leo efficitur semper. Nam eu dignissim enim, vel bibendum erat. Integer dapibus enim interdum quam laoreet, ut porta purus convallis. Maecenas enim magna, bibendum eget tempus eget, faucibus quis erat.
+Aliquam faucibus ullamcorper enim sit amet vulputate. Duis cursus facilisis diam mattis laoreet. Pellentesque magna elit, mattis id velit sit amet, iaculis auctor erat. Suspendisse eu sem non lacus hendrerit rutrum. Cras dapibus, ex a egestas laoreet, nisl leo finibus tortor, non interdum arcu ante at metus. Nulla gravida efficitur sapien, feugiat eleifend urna gravida vel. Nunc efficitur viverra dolor a varius. Sed sollicitudin vel purus vel consectetur.</p>
+      <p></p>
+    </div>
+    </article>
+    <footer>
+      <p>This is Kent's website. No rights reserved.</p>
+    </footer>
+  </body>
 </html>
