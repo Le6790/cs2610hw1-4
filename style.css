@@ -18,6 +18,8 @@
     overflow: auto; /*YAAY has scroll bar*/
    /* overflow: hidden; *//* Cuts out information according to box size */
 }
+
+
 body{
     background-image:url("http://cdn26.us1.fansshare.com/photo/backgroundimage/gray-plain-website-background-for-website-1628649645.jpg");
     display: inherit;
@@ -31,6 +33,7 @@ h1 {
 
 h2 {
     color:white;
+    text-align: center;
 }
 
 p {
@@ -69,7 +72,7 @@ a:visited {
 }
 /*
 p:hover {
-    font-weight: bold;
+    font-weight: bold;S
 }*/
 
 th {
@@ -81,10 +84,7 @@ code {
     font-family: monospace;
 }
 
-img {
-     float: right;
-    vertical-align: middle;
-}
+
 
 nav {
   height: 50px;
@@ -105,12 +105,33 @@ nav li {
   flex: 1;
 }
 
+article{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+
 /* Assignment4 */
 .flexContainer{
   display:flex;
   flex-direction: column;
-
+  float:left;
+  width:60%;
 }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  float:right;
+  padding: 1%;
+  width:30%;
+}
+aside a {
+  display: block;
+  float: left;
+}
+
 
 nav a, nav span {
   display: inline-block;
@@ -123,5 +144,6 @@ nav a, nav span {
 
 }
 footer {
-  margin-top: 10px;
+  clear: both;
+  margin-bottom: 0;
 }
