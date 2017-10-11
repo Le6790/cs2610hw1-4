@@ -1,36 +1,33 @@
-
-
 .tableBG {
     background-image: url(http://images.all-free-download.com/images/graphiclarge/soft_wave_background_310823.jpg);
-    background-attachment: scroll; /*scrolls with the table. Default */
+    /*background-attachment: scroll; /*scrolls with the table. Default */
     /*background-attachment: local; /*sticks to the table */
 }
-
+.tableScroll1{
+  background-attachment: fixed;
+}
+.tableScroll2{
+  background-attachment: scroll;
+}
+.tableScroll3{
+  background-attachment:local;
+}
 .width-constrained {
-    width: 400px;
+    width: 450px;
     height: 400px;
     overflow:scroll;
-    margin: 30px;
+    margin: 10px;
     wid
-
-}
-
-.overFlowing {
-    overflow: visible; /*Overflow */
-    overflow: auto; /*YAAY has scroll bar*/
-   /* overflow: hidden; *//* Cuts out information according to box size */
 }
 
 .tableFlex{
   display:flex;
   flex-flow: row wrap;
 }
-.flex-item{
 
-}
-.flex-item:nth-of-type(1) { order: 3; }
-.flex-item:nth-of-type(2) { order: 1; }
-.flex-item:nth-of-type(3) { order: 2; }
+.flex-item:nth-of-type(1) { order: 3;}
+.flex-item:nth-of-type(2) { order: 1;}
+.flex-item:nth-of-type(3) { order: 2;}
 
 
 .flexContainer{

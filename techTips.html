@@ -1,173 +1,257 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Git Cheat Sheet</title>
-        <link href = "style.css" rel= "stylesheet">
-    </head>
-    <body>
-        <h1>Tech Tips</h1>
+  <!DOCTYPE html>
+  <html>
+      <head>
+          <title>Git Cheat Sheet</title>
+          <link href = "style.css" rel= "stylesheet">
+      </head>
+      <body>
+          <h1>Tech Tips</h1>
 
-        <nav>
-        <ul>
-            <li><a href= "index.html"<span>Main Page</span></li>
-            <li><a href="aboutMe.html">About Me</a></li>
-            <li><a href="techTips.html">Tech Tips</a></li>
-        </ul>
-        </nav>
-
-
-        <p>This page lists and describes usful git commands.</p>
-        <p>This page was constructed with information from <a href= "https://www.html-5-tutorial.com/">https://www.html-5-tutorial.com/</a>,
-        <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a>,
-        <a href = "https://www.siteground.com/tutorials/git/commands.htm"> https://www.siteground.com/tutorials/git/commands.htm</a>,
-        and part of Professor Falor's Git Cheat Sheet class example.</p>
+          <nav>
+          <ul>
+              <li><a href= "index.html">Main Page</a></li>
+              <li><a href="aboutMe.html">About Me</a></li>
+              <li><a href="techTips.html">Tech Tips</a></li>
+          </ul>
+          </nav>
 
 
-        <article class = "tableFlex">
+          <p>This page lists and describes usful git commands.</p>
+          <p>This page was constructed with information from <a href= "https://www.html-5-tutorial.com/">https://www.html-5-tutorial.com/</a>,
+          <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a>,
+          <a href = "https://www.siteground.com/tutorials/git/commands.htm"> https://www.siteground.com/tutorials/git/commands.htm</a>,
+          and part of Professor Falor's Git Cheat Sheet class example.</p>
 
 
-        <div class = "width-constrained flex-item">
-        <table class = "flex-item">
+          <article class = "tableFlex">
+
+
+          <div class = "flex-item">
+            <h2>Table1</h2>
+            <div class ="width-constrained">
+
+          <table class = "tableBG tableScroll1">
+              <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Example</th>
+              </tr>
+
+              <tr>
+                  <td>git init</td>
+                  <td>Initializes a new git repository</td>
+                  <td><code>git init</code></td>
+              </tr>
+
+              <tr>
+
+                  <td>git add <em>filename ...</em></td>
+                  <td>Adds a set of changes to the repository</td>
+                  <td><code>git add index.html</code></td>
+              </tr>
+
+              <tr>
+                  <td>git commit</td>
+                  <td>Saves a snapshot of your work, along with your explanation</td>
+                  <td><code>git commit</code></td>
+              </tr>
+              <tr>
+                  <td>git status</td>
+                  <td>Shows you the status of files in the index vs working directory. Lists changed files, files not currently in git directory</td>
+                  <td><code>git status</code></td>
+              </tr>
+              <tr>
+                  <td>git diff</td>
+                  <td>Display the differences between committed code and the working files</td>
+                  <td><code>git diff</code></td>
+              </tr>
+              <tr>
+                  <td>git remove</td>
+                  <td>removes a file from your index and working directory</td>
+                  <td><code>git remove</code></td>
+              </tr>
+              <tr>
+                  <td>git remote add</td>
+                  <td>Connect a remote repository to this one.</td>
+                  <td><code>git remote add origin https://LeKent@bitbucket.org/LeKent/cs2610.git</code></td>
+              </tr>
+
+              <tr>
+                  <td>git push</td>
+                  <td>Send changes to a remote repository</td>
+                  <td><code>git push origin master</code></td>
+              </tr>
+
+              <tr>
+                  <td>git clone</td>
+                  <td>Makes a git repository copy froma remote source.</td>
+                  <td><code>git clone https://LeKent@bitbucket.org/erikfalor/weatheranalyzer.git </code></td>
+              </tr>
+
+              <tr>
+                  <td>git grep</td>
+                  <td>Lets you search through your tree of contents for words and phrases</td>
+                  <td><code>git grep index.html</code></td>
+              </tr>
+          </table>
+          </div>
+        </div>
+
+          <div class = " flex-item">
+          <h2>Table2</h2>
+          <div class = "width-constrained">
+
+
+          <table class = "tableBG tableScroll2">
             <tr>
                 <th>Name</th>
                 <th>Description</th>
-                <th>Example</th>
-            </tr>
-
-            <tr>
-                <td>git init</td>
-                <td>Initializes a new git repository</td>
-                <td><code>git init</code></td>
-            </tr>
-
-            <tr>
-
-                <td>git add <em>filename ...</em></td>
-                <td>Adds a set of changes to the repository</td>
-                <td><code>git add index.html</code></td>
-            </tr>
-
-            <tr>
-                <td>git commit</td>
-                <td>Saves a snapshot of your work, along with your explanation</td>
-                <td><code>git commit</code></td>
             </tr>
             <tr>
-                <td>git status</td>
-                <td>Shows you the status of files in the index vs working directory. Lists changed files, files not currently in git directory</td>
-                <td><code>git status</code></td>
+                <td>h1</td>
+                <td>Makes the biggest header</td>
             </tr>
             <tr>
-                <td>git diff</td>
-                <td>Display the differences between committed code and the working files</td>
-                <td><code>git diff</code></td>
+                <td>h2</td>
+                <td>Makes the second biggest header</td>
             </tr>
             <tr>
-                <td>git remove</td>
-                <td>removes a file from your index and working directory</td>
-                <td><code>git remove</code></td>
+                <td>h3</td>
+                <td>Makes the third biggest header</td>
             </tr>
             <tr>
-                <td>git remote add</td>
-                <td>Connect a remote repository to this one.</td>
-                <td><code>git remote add origin https://LeKent@bitbucket.org/LeKent/cs2610.git</code></td>
+                <td>h4</td>
+                <td>Makes the fourth biggest header</td>
             </tr>
-
             <tr>
-                <td>git push</td>
-                <td>Send changes to a remote repository</td>
-                <td><code>git push origin master</code></td>
+                <td>h5</td>
+                <td>Makes the fifth biggest header</td>
             </tr>
-
             <tr>
-                <td>git clone</td>
-                <td>Makes a git repository copy froma remote source.</td>
-                <td><code>git clone https://LeKent@bitbucket.org/erikfalor/weatheranalyzer.git </code></td>
+                <td>h6</td>
+                <td>Makes the smallest header</td>
             </tr>
-
             <tr>
-                <td>git grep</td>
-                <td>Lets you search through your tree of contents for words and phrases</td>
-                <td><code>git grep index.html</code></td>
+                <td>p</td>
+                <td>Paragraph of Text</td>
             </tr>
-        </table>
-        </div>
+            <tr>
+                <td>div</td>
+                <td>	Divide up page content into sections, and applying styles</td>
+            </tr>
+            <tr>
+                <td>sup</td>
+                <td>	Superscript - Smaller text placed below normal text</td>
+            </tr>
+            <tr>
+                <td>sub</td>
+                <td>	Subscript - Smaller text placed below normal text</td>
+            </tr>
+            <tr>
+                <td>span</td>
+                <td>Section of text within other content</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>	Define a Table</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>able Row within table</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>	Header Cell within table row</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>	Data Cell within table row</td>
+            </tr>
+            <tr>
+                <td>colspan</td>
+                <td>	Number of columns the cell spans across (cell merge)</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>	Number of rows the cell spans across (cell merge)</td>
+            </tr>
+          </table>
+          </div>
 
-        <div class = "width-constrained flex-item">
-        <table class = "flex-item">
-          <tr>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Example</th>
-          </tr>
-          <tr>
-              <td>h1</td>
-              <td>Makes the biggest header</td>
-              <td><code><xmp>"<h1>Header</h1>"</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>h2</td>
-              <td>Makes the second biggest header</td>
-              <td><code><xmp>"<h2>Header2</h2>"</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>h3</td>
-              <td>Makes the third biggest header</td>
-              <td><code><xmp>"<h3>Header3</h3>"</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>h4</td>
-              <td>Makes the fourth biggest header</td>
-              <td><code><xmp>"<h3>Header4</h4>"</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>h5</td>
-              <td>Makes the fifth biggest header</td>
-              <td><code><xmp>"<h5>Header5</h5>"</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>h6</td>
-              <td>Makes the smallest header</td>
-              <td><code><xmp>"<h6>Header6</h6>"</xmp></code></td>
-
-          </tr>
-        </table>
-        </div>
-
-        <div class = "width-constrained flex-item">
-        <table class = "flex-item">
-          <tr>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Example</th>
-          </tr>
-          <tr>
-              <td>background color</td>
-              <td>Change the background color</td>
-              <td><code><xmp>background-color: RED</xmp></code></td>
-
-          </tr>
-          <tr>
-              <td>background attachment</td>
-              <td>set to be scrolled or fixed</td>
-              <td><code><xmp>background-attachment: scroll</xmp></code></td>
-
-          </tr>
-        </table>
-        </div>
-        </article>
+          </div>
+          <div class = "flex-item">
+          <h2>Table3</h2>
+          <div class = "width-constrained">
 
 
+          <table class = "tableBG tableScroll3">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>background color</td>
+                <td>Change the background color</td>
+            </tr>
+            <tr>
+                <td>background attachment</td>
+                <td>set to be scrolled or fixed</td>
+            </tr>
+            <tr>
+              <td>color</td>
+              <td>Sets the color of text</td>
+            </tr>
+            <tr>
+              <td>opacity</td>
+              <td>	Sets the opacity level for an element</td>
+            </tr>
+            <tr>
+              <td>background</td>
+              <td>A shortdand property for setting all tde background properties in one declaration</td>
+            </tr>
+            <tr>
+              <td>background-size</td>
+              <td>size	Specifies the size of the background image(s)</td>
+            </tr>
+            <tr>
+              <td>height</td>
+              <td>	Sets the height of an element</td>
+            </tr>
+            <tr>
+              <td>width</td>
+              <td>	Sets the width of an element</td>
+            </tr>
+            <tr>
+              <td>max-height</td>
+              <td>	Sets the maximum height of an element</td>
+            </tr>
+            <tr>
+              <td>max-width</td>
+              <td>	Sets the maximum width of an element</td>
+            </tr>
+            <tr>
+              <td>flex-direction</td>
+              <td>Specifies the direction of the flexible items</td>
+            </tr>
+            <tr>
+              <td>flex-grow</td>
+              <td>Specifies how much the item will grow relative to the rest</td>
+            </tr>
+            <tr>
+              <td>justify-content</td>
+              <td>Specifies the alignment between the items inside a flexible container when the items do not use all available space</td>
+            </tr>
+          </table>
+          </div>
+          </div>
+          </article>
 
-          <img src = "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt= "html 5 logo" width="100"/>
-          <img src = "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt= "git logo" width="200"/>
-          <footer>
-            <p>This is Kent's website. No rights reserved.</p>
-          </footer>
-    </body>
-</html>
+
+
+            <img src = "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt= "html 5 logo" width="100"/>
+            <img src = "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt= "git logo" width="200"/>
+            <footer>
+              <p>This is Kent's website. No rights reserved.</p>
+            </footer>
+      </body>
+  </html>
