@@ -1,7 +1,5 @@
 .tableBG {
     background-image: url(http://images.all-free-download.com/images/graphiclarge/soft_wave_background_310823.jpg);
-    /*background-attachment: scroll; /*scrolls with the table. Default */
-    /*background-attachment: local; /*sticks to the table */
 }
 .tableScroll1{
   background-attachment: fixed;
@@ -17,7 +15,6 @@
     height: 400px;
     overflow:scroll;
     margin: 10px;
-    wid
 }
 
 .tableFlex{
@@ -34,7 +31,7 @@
   display:flex;
   flex-direction: column;
   float:left;
-  width:60%;
+  width:70%;
 }
 
 
@@ -49,7 +46,7 @@ h1 {
     color: white;
 }
 
-h2 {
+h2,h3 {
     color:white;
     text-align: center;
 }
@@ -129,7 +126,6 @@ aside {
   flex-direction: column;
   float:right;
   padding: 1%;
-  width:30%;
 }
 aside a {
   display: block;
